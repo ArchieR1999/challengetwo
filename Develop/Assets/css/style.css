@@ -1,0 +1,92 @@
+:root {
+    --primary-color: rgb(255, 255, 255);
+    --secondary-color: #001aff;
+    --tertiary-color: #b32c2c;
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    color: var(--tertiary-color);
+    font-family: Helvetica, Arial, sans-serif;
+  }
+
+  /* HEADER STYLES START */
+
+header {
+    padding: 25px 35px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: relative;
+    top: 0;
+    background-image: url("../images/banner");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 60%;
+    z-index: 9999;
+  }
+  
+  header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 48px;
+    color: var(--primary-color);
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+
+  
+  header nav {
+    margin: 20px 0;
+  }
+  
+  header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+  
+  header nav ul li a:hover {
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    border-radius: 30px;
+    text-shadow: none;
+  }
+  
+  /* HEADER / NAVBAR STYLES END */
+
+  /* FOOTER STYLES START */
+footer {
+    background: var(--primary-color);
+    padding: 40px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  
+  footer h2 {
+    color: var(--tertiary-color);
+    font-size: 35px;
+    font-style: italic;
+    margin: 0;
+  }
+
+
+  /* END FOOTER STYLES */
+  
+  
